@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Ubuntu&display=swap');
+     
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            
+            background-color: rgb(4, 46, 62);
+            font-family: 'Mukta', sans-serif;
+            
+         }
+         nav{
+            display: flex;
+            
+         }
+         .logo{
+            display: flex;
+         }
+         .logo img{
+            width:221px;
+            padding: 10px 60px;
+         }
+         nav ul{
+            height: 70px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+         }
+         nav ul li{
+            list-style: none;
+            padding:0 23px;
+
+         }
+         nav ul li a{
+            
+            color: white;
+            text-decoration: none;
+        
+         }
+         nav ul li a:hover{
+            
+            color: rgb(234, 234, 21);
+            font-weight: bolder;
+            
+        
+         }
+         .search
+         {
+            display: flex;
+            /*justify-content: center;*/
+            align-items: center;
+                    }
+        .search input
+        {
+            height:27px ;
+            width: 30vw;
+            border-radius: 5px;
+        margin: 0 8px 0 56px;
+        padding: 0 12px ;
+ 
+        }
+        .slider
+        {
+            margin: 12px auto;
+            width: 60vw;
+            overflow: hidden;
+            
+
+        }
+        .card{
+         margin: 37px auto;
+         max-width: 90vw;
+         font-family: 'Mukta', sans-serif;
+         font-family: 'Ubuntu', sans-serif;
+        }
+        .cards
+        {
+         display: flex;
+         overflow: scroll;
+        }
+        .card-item
+        {
+         display: inline-flex;
+         justify-content: center;
+         flex-direction: column;
+         flex-direction: 0 15px;
+         margin: 10px ;
+        }
+        .card h2{
+         font-family: 'Mukta', sans-serif;
+         font-family: 'Ubuntu', sans-serif;
+        }
+
+         .container
+         {
+            min-height: calc(100vh - 80px - 12vh);
+         }
+            
+        
+ footer
+ {
+    height: 12vh;
+    background-color:  rgb(4, 46, 62);
+    color: beige;
+    font-family: 'Mukta', sans-serif;
+ }
+ 
